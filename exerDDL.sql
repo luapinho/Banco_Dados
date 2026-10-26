@@ -28,7 +28,7 @@ ativo CHAR(20) DEFAULT 'Ativo'
 );
 
 SHOW TABLES;
-DESC tbVeiculo;
+DESCRIBE tbVeiculo;
 
 -- exércicio 4
 SHOW CREATE TABLE tbVeiculo;
@@ -74,7 +74,7 @@ USE dbOficina;
 
 SHOW TABLES;
 
-DESC veiculo;
+DESCRIBE veiculo;
 
 USE dbEscolasIdiomas;
 
@@ -324,11 +324,12 @@ SHOW DATABASES;
 DROP DATABASE IF EXISTS dbVeterinaria;
 DROP DATABASE IF EXISTS dbOficina;
 DROP DATABASE IF EXISTS dbEscolaIdiomas;
-DROP DATABASE IF EXISTS dbMateriais;
+DROP DATABASE IF EXISTS dbmaterias;
 DROP DATABASE IF EXISTS dbAcademia;
 DROP DATABASE IF EXISTS dbOficinaHomologacao;
 DROP DATABASE IF EXISTS dbEscolaHomologacao;
 DROP DATABASE IF EXISTS dbLocadoraTeste;
+
 
 SHOW DATABASES;
 
